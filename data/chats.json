@@ -1,0 +1,36 @@
+[
+    {
+      "id": "1",
+      "name": "Amy Wilson",
+      "messages": [
+        {
+          "id": "1",
+          "text": "How are you love",
+          "date": "2024-07-23",
+          "time": "12:30 PM",
+          "sent": false
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "messages": [
+        {
+            "id": "1",
+            "text": "Are you home?",
+            "date": "2024-07-21",
+            "time": "8:15 PM",
+            "sent": false
+        },
+        {
+          "id": "2",
+          "text": "Can you answer?",
+          "date": "2024-07-22",
+          "time": "10:15 AM",
+          "sent": false
+        }
+      ]
+    }
+  ]
+  
