@@ -1,13 +1,17 @@
 let runningCount = 0;
 const updateRunningCount = (card) => {
     if (card.value === 2 || card.value === 3 || card.value === 7) {
-      runningCount += 1;
+        runningCount += 1;
     } else if (card.value === 4 || card.value === 5 || card.value === 6) {
-      runningCount += 2;
-    } else if (card.value === 10 || card.value === 11 || card.value === 1) {
-      runningCount -= 2;
+        runningCount += 2;
+    } else if (card.value === 8 || card.value === 9) {
+        runningCount += 0;
+    } else if (card.value === 10 || card.value === 11) {
+        runningCount -= 2;
+    } else if (card.value === 1) {
+        runningCount -= 1;
     }
-  };
+};
 
 const calculateTrueCount = (numberOfDecks) => {
   return runningCount / numberOfDecks;
