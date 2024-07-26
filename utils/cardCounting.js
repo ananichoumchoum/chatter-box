@@ -15,11 +15,11 @@ const calculateTrueCount = (numberOfDecks) => {
 
 const makeDecisionBasedOnTrueCount = (trueCount) => {
   if (trueCount >= 3) {
-    return 'Consider increasing your bet significantly.';
+    return ' count higher or equal to 3. Consider increasing your bet significantly.';
   } else if (trueCount >= 1) {
-    return 'Consider increasing your bet slightly.';
+    return 'count higher than 1 but lower than 3. Consider increasing your bet slightly.';
   } else if (trueCount <= -1) {
-    return 'Consider decreasing your bet.';
+    return 'count lower or equal to -1. Consider decreasing your bet.';
   } else {
     return 'Continue with normal bet.';
   }
