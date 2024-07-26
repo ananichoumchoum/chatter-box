@@ -1,4 +1,4 @@
-// sidebets.js
+// To do figuring out the logic of those side bets and testing out with the main code.
 
 const suits = ['hearts', 'diamonds', 'clubs', 'spades'];
 
